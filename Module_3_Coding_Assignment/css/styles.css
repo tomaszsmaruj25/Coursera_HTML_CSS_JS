@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family:  Apple Chancery, cursive ;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: solid black 3px;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+ .navbar-brand h1 { /* MENU,LLC */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+
+section {
+  background-color: gray;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+section > div {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container{
+  text-align: center;
+  width: calc(100% - 50px);
+  padding: 10px;
+}
