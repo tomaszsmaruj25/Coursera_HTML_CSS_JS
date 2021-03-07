@@ -1,0 +1,17 @@
+// PATH
+cd C:\Users\smarujt\Desktop\HTML-CS-JS-COURSE>
+
+// CLONE target branch
+git clone -b gh-pages https://github.com/tomaszsmaruj25/Coursera_HTML_CSS_JS.git
+
+// Check STATUS
+git status
+
+// Steps to COMMIT after change
+git add .
+git commit -m "Significant change"
+git push
+
+
+// Sync
+browser-sync start --server --directory --files "*"
